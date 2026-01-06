@@ -5,16 +5,54 @@ size: 16:9
 backgroundImage: url('./assets/default.png')
 style: |
   @import url('./assets/diamond.css');
+  img[alt~='masked'] {
+    mask-image: url('./assets/dls-mask.png');
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: 100%, 0%;
+    position: absolute;
+    width: 1200px;
+
+    /* Place to right-bottom */
+    right: 0px;
+    top: 0px;
+    }
+
 ---
 <!-- _class: lower-heading -->
 ![bg](./assets/h1.png)
 
-# Intro Slide 
+# I15-1 (XPDF)
 Dean Keeble
-Somewhere, sometime
+DLS/ISIS Crystallography Meeting
+January 2026
 
 ---
-![bg](./assets/dls.png)
+
+## What to say? 
+
+- 10 mins per beamline
+- Focus on capabilities and the science it can enable
+- Aim to identify collaboration and areas for common development
+
+---
+<style scoped>
+  img[alt~='masked'] {
+    right: -340px;
+    mask-position: 45%, 0%;
+  }
+</style>
+
+![masked ](./assets/i15-1.png)
+### What we do
+- I15-1 is a high flux, high energy
+poweder machine
+- thisn jsdhfg jsdhfg 
+- sdfighd fgjkhd fg
+
+---
+
+
 
 ## List of things
 Normal markdown rules apply:
