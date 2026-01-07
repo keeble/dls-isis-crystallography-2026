@@ -36,6 +36,14 @@ January 2026
 - Aim to identify collaboration and areas for common development
 
 ---
+
+## What is I15-1?
+- I15-1 is a high-energy, high-flux, powder diffractometer
+- Primarily designed for total scattering and PDF studies
+- Built to use an unused side portion of the I15 source profile
+
+---
+
 <style scoped>
   img[alt~='masked'] {
     right: -340px;
@@ -43,15 +51,44 @@ January 2026
   }
 </style>
 
-![masked ](./assets/i15-1.png)
-### What we do
-- I15-1 is a high flux, high energy
-poweder machine
-- thisn jsdhfg jsdhfg 
-- sdfighd fgjkhd fg
+![masked w:1100](./assets/i15-1.png)
+### Typical Experiments
+- Samples in glass capillaries
+- 440 positions on the table
+- Hot (1050 K) and cold (90 K)
+readily available
+- Expose sample for ~10 minutes
+- Everything pretty scriptable
+&nbsp;
 
 ---
 
+liquid flow
+
+---
+
+gas flow
+
+
+---
+
+drix
+
+
+---
+
+other setups
+
+---
+
+bags? 
+
+
+---
+
+mention the collab with SANDALS and the previous deal with POLARIS
+
+---
 
 
 ## List of things
