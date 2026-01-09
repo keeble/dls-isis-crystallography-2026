@@ -62,6 +62,7 @@ li {
 
 img {
   background-color: transparent!important;
+  border-radius: 20px;
 }
 
 footer {
@@ -161,4 +162,10 @@ section.lower-heading h3 {
 
 section.lower-heading p {
   color: var(--diamond-primary);
+}
+
+section.lower-heading h2,
+section.lower-heading h3,
+section.lower-heading h4 {
+  color: var(--diamond-surface) !important;
 }
