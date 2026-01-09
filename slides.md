@@ -28,12 +28,32 @@ DLS/ISIS Crystallography Meeting
 January 2026
 
 ---
+<style scoped>
+table {
+  border: none !important;
+  border-color:  rgba(255, 255, 255, 1) !important;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h2 {
+  position: absolute;
+  top: 13%;
+}
+th, td, tr, tbody {
+  background-color: rgba(255, 255, 255, 1) !important;
+  border-color:  rgba(255, 255, 255, 1) !important;
+}
+p {
+  text-align: center;
+  }
+</style>
+## I15-1 Beamline Staff
 
-## What to say? 
-
-- 10 mins per beamline
-- Focus on capabilities and the science it can enable
-- Aim to identify collaboration and areas for common development
+|![h:250](./assets/dean.png) |![h:250](./assets/dan.png) |![h:250](./assets/anna.png) |![h:250](./assets/tobie.png) | ![h:250](./assets/finley.jpeg)
+:-----:|:------:|:-----:|:------:|:------:
+Dean Keeble | Dan Irving | Anna Herlihy | Tobias Bird | Finley Belcher
 
 ---
 
@@ -41,6 +61,17 @@ January 2026
 - I15-1 is a high-energy, high-flux, powder diffractometer
 - Primarily designed for total scattering and PDF studies
 - Built to use an unused side portion of the I15 source profile
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;![h:180](./assets/optics-hutch.png)
+
+---
+
+### High Energy
+We have 3 fixed energies, 40 keV, 65 keV, and 76 keV. At 76 keV: 
+- can access a Q of ~28 Å<sup>-1</sup>
+- 89% transmission through 10 mm of aluminium
+### High Flux
+We bend our monochromator crystal to increase the bandwidth (at the cost of reciprocal space resolution)
 
 ---
 
@@ -51,7 +82,7 @@ January 2026
   }
 </style>
 
-![masked w:1100](./assets/i15-1.png)
+![masked w:1200](./assets/i15-1.png)
 ### Typical Experiments
 - Samples in glass capillaries
 - 440 positions on the table
@@ -63,71 +94,83 @@ readily available
 
 ---
 
-liquid flow
-
----
-
-gas flow
-
-
----
-
-drix
-
-
----
-
-other setups
-
----
-
-bags? 
-
-
----
-
-mention the collab with SANDALS and the previous deal with POLARIS
-
----
-
-
-## List of things
-Normal markdown rules apply:
-
-It helps us keep track of: 
-- things
-- other things
-- those things over there
-- and more! :o: :smiley: :white_check_mark:
-
----
-- some things need a reference†
-- and sometimes you need maths inline $x=y^2$ or in a block:
-$$\begin{aligned}\mathbf{Q} &= \mathbf{k}_f - \mathbf{k}_i \\
-Q &= \vert\mathbf{Q}\vert\end{aligned} $$
-
- <!-- _footer: †Keeble et. al Appl. Phys. Lett. 102, 092903 (2013) --> 
-
----
-
-### and some things need to be in a table
-
-Fruit | Colour | Amount | Cost
------|------|:-----:|------:
-Banana &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Yellow | 4 | £1.00
-Apple | Red | 2 | £0.60
-Orange | Orange &nbsp; &nbsp; &nbsp; | 10 | £2.50
-Coconut | Brown | 1 | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; £1.50
-
----
-
 <style scoped>
   p { text-align: center; }
+  img {border-radius: 20px }
 </style>
-...and sometimes
-you want to temporarily
-modify something
+
+![](./assets/capillaries.png)
 
 ---
- fitting long lines to page width
-#### <!--fit--> https://www.diamond.ac.uk/Instruments/Crystallography/I19/Manual/EH1.html
+
+![bg contain](./assets/gas.png)
+
+---
+
+![bg contain](./assets/drix.png)
+<!-- _footer: Diaz-Lopez, et al. (2020)  J. Synchrotron Rad. 27, 1190.
+ -->
+
+---
+
+&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; ![h:500](./assets/other_environments.png) ![h:500](./assets/installation.jpg)
+
+---
+### Previous/Current DLS/ISIS collaborations
+- Previously we offered "free" room temperature data collections to the ISIS Crystallography group
+- More recently we've had a lot of DM proposers include I15-1 on their proposals, and we're looking to widen this collaboration
+
+---
+
+<!-- _class: lower-heading -->
+![bg](./assets/h2.png)
+
+## Future Plans
+#### New & newer Detectors, Diamond-II
+---
+
+## New Detector(s)
+
+<style scoped>
+table {
+  border: none !important;
+  border-color:  rgba(255, 255, 255, 1) !important;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h2 {
+  position: absolute;
+  top: 7%;
+} td, tr, tbody {
+  background-color: rgba(255, 255, 255, 1) !important;
+  border-color:  rgba(255, 255, 255, 1) !important;
+  color: var(--diamond-primary) !important;
+}
+p {
+  text-align: center;
+  }
+</style>
+
+ &nbsp;| model | sensor <br>thickness | pixel<br>size | frame<br>rate |  coverage
+:-----:|:------|:-----|:------|:------|:---
+![h:150](./assets/arc.jpg)| ARC CdTe| 1 mm | 75 um | 25 Hz | 109°
+![h:150](./assets/eiger.webp) | Eiger 2X CdTe | 750 um | 55 um | 2.2 kHz | 17°
+
+---
+
+## Diamond-II 
+
+- The Diamond-II upgrade will see a new software stack deployed at Diamond
+- In 2026 I15-1 will start using this new stack
+- Looking to introduce better interconnectivity of data and bespoke web interfaces
+
+---
+<!-- _class: lower-heading -->
+![bg](./assets/h3.png)
+
+# I15-1 (XPDF)
+Dean Keeble
+DLS/ISIS Crystallography Meeting
+January 2026
